@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.image-set{
+    background-image: url(back.png);
+}
+  
+.header {
+    background-color: transparent;
+    text-align: center;
+  }
+  
+#navbar {
+    overflow: hidden;
+    background-color: transparent;
+    z-index: 9999;
+}
+  
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+#navbar a.linktext {
+    background-color: #ddd;
+    color: black;
+}
+  
+ #navbar a.number {
+    background-color: #6C4C24;
+    color: white;
+}
+  
+.content {
+    padding: 16px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+.content h2{
+    color: #6C4C24;
+}
+.content p{
+    color: whitesmoke;
+    font-size: 12px;
+}
+.concept {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.concept .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+}
+.concept .centered h2{
+    font-size: 18px;
+    color: #6C4C24;
+}
+.concept .centered p{
+    font-size: 12px;
+}
+.bloglist .media-body{
+color: whitesmoke;
+}
+.bloglist .media-body p{
+    font-size: 12px;
+}
+.bloglist .media-body p{
+    font-size: 12px;
+}
+hr{
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card .card-body h2{
+    font-size: 17px;
+    color: whitesmoke;
+}
+.card .card-body p{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.item-collapse .card{
+    border: 1px solid whitesmoke;
+    border-radius: 0px;
+}
+.textitem{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: transparent;
+    color: yellow;
+}
+.tabpnelShow .tab-content .tab-pane p{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.tabpnelShow nav{
+    border: 1px solid whitesmoke;
+}
+.tabpnelShow nav a{
+    color: whitesmoke;
+}
+.tabpnelShow .tab-content .tab-pane{
+    border: 1px solid whitesmoke;
+}
