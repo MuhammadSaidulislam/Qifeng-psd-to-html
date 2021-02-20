@@ -4,16 +4,32 @@ body {
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     
-  }
+}
+.col-lg-12,.col-md-12{
+padding-left: 0px;
+padding-right: 0px;
+}
+.header-wrapper{
+    position: absolute;
+     z-index: 9999; 
+}
+.contact{
+    position: absolute;
+}
 .image-set{
     background-image: url(back.png);
 }
-  
+
 .header {
     background-color: transparent;
-    text-align: center;
-  }
-  
+}
+.header-wrapper p{
+    font-size: 12px;
+}
+.fa-clock{
+    font-family:"Font Awesome 5 Free";
+    content: '\f017';
+}
 #navbar {
     overflow: hidden;
     background-color: transparent;
@@ -40,9 +56,6 @@ body {
     color: white;
 }
   
-.content {
-    padding: 16px;
-}
   
 .sticky {
     position: fixed;
@@ -134,7 +147,69 @@ hr{
 }
 .tabpnelShow nav a{
     color: whitesmoke;
+    font-size: 12px;
 }
 .tabpnelShow .tab-content .tab-pane{
     border: 1px solid whitesmoke;
 }
+.grid-blog .list-unstyled .media .media-body p{
+    font-size: 12px;
+}
+
+/* Footer left side */
+.footer .address{
+    color: whitesmoke;
+}
+.footer .address h3{
+    font-size: 16px;
+}
+.footer .address p{
+    font-size: 12px;
+}
+
+/* social icon */
+
+.social-icons {
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #448aaf;
+  }
+  .social-icons h1 {
+    margin: 40px 0;
+  }
+  .social-icons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .social-icons ul li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+  }
+  .social-icons ul li a {
+    display: block;
+    font-size: 1.4em;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  .social-icons ul li a i {
+    color: #448aaf;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  .social-icons ul li a:hover i {
+    color: #275066;
+  }
+  .social-icons ul li a:focus i,
+  .social-icons ul li a:active i {
+    transition: none;
+    color: #0b161c;
+  }
+  
