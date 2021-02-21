@@ -27,6 +27,10 @@ padding-right: 0px;
 }
 .image-set{
     background-image: url(back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .fa-calendar{
     color: #6C4C24;
@@ -64,7 +68,6 @@ font-family: "Yu Gothic";
     background-color: transparent;
     z-index: 9999;
 }
-  
 #navbar a {
     float: right;
     display: block;
@@ -79,7 +82,6 @@ font-family: "Yu Gothic";
     background-color: #ddd;
     color: black;
 }
-  
  #navbar a.number {
     background-color: #6C4C24;
     color: white;
@@ -526,6 +528,34 @@ border: 1px solid whitesmoke;
     transition: none;
     color: #fff;
   }
+  .owl-theme .owl-dots .owl-dot span {
+    width:30px;
+    height:3px;
+    margin:5px 7px;
+    background:#D6D6D6;
+    display:block;
+    -webkit-backface-visibility:visible;
+    transition:opacity .2s ease;
+    /*! border-radius:30px; */
+}
+.itembanner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.itembanner .bottom {
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.itembanner .bottom h2{
+    font-size: 16px;
+color: #fff;
+font-weight: 200;
+font-family: "Noto Serif JP";
+text-align: center;
+}
+
 
 /* responsive  */
 
@@ -537,6 +567,15 @@ border: 1px solid whitesmoke;
         color: whitesmoke;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .textitem{
+        margin-top: 20px;
+    }
+    .food-section{
+        padding: 2px 7px;
+    }
+    .drink-section{
+        padding: 2px 7px;
     }
     .bloglist .headingtitle{
     font-size: 39px;
