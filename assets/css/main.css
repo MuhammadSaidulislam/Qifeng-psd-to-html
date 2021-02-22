@@ -48,10 +48,42 @@ text-decoration: none;
 color: whitesmoke;
 font-size: 34px;
 font-weight: 200;
+z-index: 99999;
 }
-.rgihtside{
-    margin-right: 5px;
+.header-rightside{
+    position: absolute;
+     z-index: 9999; 
+     top: 90%;
+     transform: translate(0,-90%);
+     right: 0px;
 }
+.header-rightside .rightside a .calendarcolor{
+    color: white;
+    background-color: #4c3315;
+    padding-bottom: 0px;
+}
+.header-rightside .rightside a .calendarcolor i{
+    color: white;
+    padding: 2px 8px;
+}
+.header-rightside .rightside{
+    text-align: center;
+    height: 169px;
+    width: 30px;
+  margin-left: 100%;
+  transform: translate(-100%,0);
+}
+.header-rightside .rightside a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    
+}
+.header-rightside .rightside a .rightcolor{
+    background-color: rgb(108, 76, 36);
+    padding: 2px;
+}
+
 .contact{
     position: absolute;
 }
@@ -360,9 +392,7 @@ font-family: Yu-Gothic;
 .news{
     margin: 75px 0px;
 }
-.news .news-title{
-    margin: 35px 0px;
-}
+
 .news .food,
 .news .drink{
     font-size: 36px;
@@ -628,6 +658,12 @@ text-align: center;
 /* responsive  */
 
 @media screen and (max-width: 480px) {
+    .header-rightside{
+        display: none;
+    }
+    .arrowSign{
+        display: none;
+    }
     .carousel-item h1{
         font-size: 31px;
     letter-spacing: 12px;
@@ -677,7 +713,7 @@ text-align: center;
         padding: 2px 7px;
     }
     .concept img{
-        height: 405px;
+        height: 310px;
     }
     .concept .centered {
         position: absolute;
@@ -692,7 +728,7 @@ text-align: center;
         font-size: 14px
     }
     .banner img{
-        height: 405px;
+        height: 310px;
     }
     .banner .centered h2{
         font-size: 18px;
@@ -701,7 +737,7 @@ text-align: center;
         font-size: 14px
     }
     .banner-two img{
-        height: 405px;
+        height: 310px;
     }
     .banner-two .centered h2{
         font-size: 18px;
@@ -710,7 +746,7 @@ text-align: center;
         font-size: 14px
     }
     .banner-three img{
-        height: 405px;
+        height: 310px;
     }
     .banner-three .centered h2{
         font-size: 18px;
