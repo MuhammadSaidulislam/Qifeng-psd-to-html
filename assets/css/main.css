@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 body {
     margin: 0px;
     padding: 0px;
@@ -26,7 +27,7 @@ padding-right: 0px;
     position: absolute;
 }
 .image-set{
-    background-image: url(saidul/back.png);
+    background-image: url(/assets/images/back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,6 +50,7 @@ padding-right: 0px;
     color: #edbf77;
     font-size: 14px;
 }
+
 .carousel-item h1{
     font-size: 155px;
 letter-spacing: 12px;
@@ -238,7 +240,6 @@ font-family: "Yu Gothic";
 text-align: center;
 }
 .card .card-body p{
-    height: 66px;
 font-size: 12px;
 line-height: 24px;
 color: #ffffff;
@@ -279,6 +280,7 @@ font-family: "Yu Gothic";
 
 .banner-two {
     position: relative;
+    margin-top: 30px;
     text-align: center;
     color: white;
   }
@@ -439,11 +441,22 @@ font-family: "Yu Gothic";
 color: #ffffff;
 font-family: "Yu Gothic";
 }
+.grid-blog .blog-link {
+   margin-top: 20px;
+}
 .grid-blog .blog-link a{
 text-decoration: none;
 color: whitesmoke;
 padding: 5px;
 border: 1px solid whitesmoke;
+}
+.menu-slider .gallery h2{
+    font-size: 24px;
+    color: #edbf77;
+    margin-bottom: 25px;
+}
+.border-img{
+    border-right: 2px solid white;
 }
 
 /* Footer left side */

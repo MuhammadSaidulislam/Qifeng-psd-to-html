@@ -56,3 +56,23 @@ USPや競合との差別化などアピールしたい内容はこちらで紹�
 お知らせ
 【営業時間】 17:30～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30） 定休日 / 月曜日
 愛知県名古屋市名駅○丁目○番地
+
+
+
+  <!-- <div class="responsiveToggle">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="number" href="javascript:void(0)"><i class="fa fa-phone pr-2"></i>052-123-4567</a>
+            </li>
+            <li class="nav-item">
+              <a class="linktext" href="javascript:void(0)"><i class="fa fa-calendar pr-2"></i>空き席確認・予約</a>
+            </li>  
+          </ul>
+        </div>  
+      </nav>
+    </div> -->
