@@ -1,18 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* Font import */
+@font-face{
+    font-family: Noto sans CJ Kjp;
+    src: url('../fonts/NotoSerifJP/NotoSerifJP-Regular.otf');
+}
+@font-face{
+    font-family: Tomatoes;
+    src: url("../fonts/TOMATOES Personal Use.ttf");
+}
+@font-face{
+    font-family: Noto-Serif-Jp;
+    src: url("../fonts/NotoSerifJP/NotoSerifJP-Regular.otf");
+}
+
+/* text font */
 body {
     margin: 0px;
     padding: 0px;
     font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif !important;
 }
+/* column padding remove */
 .col-lg-12,.col-md-12{
 padding-left: 0px;
 padding-right: 0px;
 }
+/* carousel caption in middle */
 .carousel-caption{
     position: absolute;
     right: 15%;
-    top: 50%;
-    transform: translate(0,-50%);
+    top: 56%;
+    transform: translate(0,-56%);
     left: 15%;
     z-index: 10;
     padding-top: 20px;
@@ -23,19 +39,36 @@ padding-right: 0px;
     position: absolute;
      z-index: 9999; 
 }
+.arrowSign{
+    margin-top: 20%;
+    transform: translate(0,20%);
+}
+.arrowSign a{
+text-decoration: none;
+color: whitesmoke;
+font-size: 34px;
+font-weight: 200;
+}
+.rgihtside{
+    margin-right: 5px;
+}
 .contact{
     position: absolute;
 }
+
+/* Background image set */
 .image-set{
-    background-image: url(/assets/images/back.png);
+    background-image: url(../images/back.png); /* background image path */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+/* calender font color */
 .fa-calendar{
     color: #6C4C24;
 }
+/* top navbar */
 .header {
     background-color: transparent;
 }
@@ -50,21 +83,28 @@ padding-right: 0px;
     color: #edbf77;
     font-size: 14px;
 }
+/* carousel text */
 
 .carousel-item h1{
-    font-size: 155px;
+    font-size: 100px;
 letter-spacing: 12px;
 color: #edbf77;
-font-family: 'Sacramento', cursive;
+font-family: Tomatoes;
+font-weight: 400;
+transform: rotate(-12deg);
 }
+
 .carousel-item h2{
-    height: 60px;
-font-size: 16px;
-letter-spacing: 1px;
-line-height: 24px;
+    margin-top: 23px;
+    margin-left: 101px;
+font-size: 22px;
+letter-spacing: 2px;
 color: #edbf77;
-font-family: "Yu Gothic";
+font-family: Noto sans CJ Kjp;
 }
+
+
+/* sticky navbar */
 #navbar {
     overflow: hidden;
     background-color: transparent;
@@ -79,7 +119,6 @@ font-family: "Yu Gothic";
     text-decoration: none;
     font-size: 17px;
 }
-  
 #navbar a.linktext {
     background-color: #ddd;
     color: black;
@@ -94,7 +133,8 @@ font-family: "Yu Gothic";
     top: 0;
     width: 100%;
 }
- .content .contentText{
+/* conctent text */
+.content .contentText{
     margin: 70px 0px;
 } 
 
@@ -103,13 +143,14 @@ font-family: "Yu Gothic";
 letter-spacing: 4px;
 color: #edbf77;
 font-weight: 700;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 }
 .content p{
     font-size: 16px;
     color: #ffffff;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
 }
+/* concept text */
 .concept {
     position: relative;
     text-align: center;
@@ -127,13 +168,15 @@ font-family: "Noto Serif JP";
     letter-spacing: 4px;
     color: #edbf77;
     font-weight: 700;
-    font-family: "Noto Serif JP";
+    font-family: Noto-Serif-Jp;
 }
 .concept .centered p{
     font-size: 16px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
+
+/*blog list section */
 .bloglist{
     margin: 75px 0px;
 }
@@ -142,7 +185,7 @@ font-family: "Yu Gothic";
 letter-spacing: 3px;
 color: #edbf77;
 font-weight: 700;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 text-align: center;
 }
 .bloglist .media-body{
@@ -153,18 +196,20 @@ color: whitesmoke;
 letter-spacing: 3px;
 color: #ffffff;
 font-weight: bold;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .bloglist .media-body p{
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
 }
+/* horizontal line */
 hr{
     color: whitesmoke;
     background-color: whitesmoke;
 }
+/* first banner */
 .banner {
     position: relative;
     text-align: center;
@@ -182,7 +227,7 @@ hr{
 letter-spacing: 2px;
 color: #edbf77;
 font-weight: 700;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 text-align: center;
 }
 .banner .centered p{
@@ -190,9 +235,10 @@ text-align: center;
 font-size: 16px;
 line-height: 24px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 text-align: center;
 }
+/* collapse section */
 .collapse-section{
     margin: 75px 0px;
 }
@@ -201,7 +247,7 @@ text-align: center;
 letter-spacing: 3px;
 color: #edbf77;
 font-weight: 700;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 text-align: center;
 }
 .collapse-section .headline-Text p{
@@ -209,9 +255,10 @@ text-align: center;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
     text-align: center;
 }
+/* collapse card edit */
 .card{
     position: relative;
     display: flex;
@@ -228,7 +275,7 @@ text-align: center;
 letter-spacing: 2px;
 color: #ffffff;
 font-weight: bold;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 text-align: center;
 }
 .card .card-body h2{
@@ -236,15 +283,16 @@ text-align: center;
 font-size: 16px;
 line-height: 24px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 text-align: center;
 }
 .card .card-body p{
 font-size: 12px;
 line-height: 24px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
+/* DRINK and DRINK section */
 .drink-section{
     margin: 50px 0px;
 }
@@ -254,7 +302,7 @@ font-family: "Yu Gothic";
 letter-spacing: 3px;
 color: #edbf77;
 font-weight: 700;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 text-align: center;
 }
 .item-collapse .card{
@@ -268,16 +316,17 @@ text-align: center;
     font-size: 16px;
 line-height: 50px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .textitem{
     height: 65px;
 font-size: 16px;
 line-height: 24px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 
+/* Banner two  */
 .banner-two {
     position: relative;
     margin-top: 30px;
@@ -296,7 +345,7 @@ font-family: "Yu Gothic";
     letter-spacing: 2px;
     color: #edbf77;
     font-weight: 700;
-    font-family: "Noto Serif JP";
+    font-family: Noto-Serif-Jp;
     text-align: center;
 }
 .banner-two .centered p{
@@ -304,9 +353,10 @@ font-family: "Yu Gothic";
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
     text-align: center;
 }
+/* news section */
 .news{
     margin: 75px 0px;
 }
@@ -319,9 +369,10 @@ font-family: "Yu Gothic";
 letter-spacing: 3px;
 color: #edbf77;
 font-weight: 700;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 text-align: center;
 }
+/* Food category section */
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
     background-color: transparent;
@@ -331,7 +382,7 @@ text-align: center;
     padding: 5px 10px;
     font-size: 14px;
 color: #ffffff;
-font-family: "Koz Go Pr6 N";
+font-family: Koz-Go-Pr6-N;
 }
 .tabpnelShow nav{
     border: 1px solid whitesmoke;
@@ -340,7 +391,7 @@ font-family: "Koz Go Pr6 N";
     font-size: 14px;
     letter-spacing: 3px;
     color: #ffffff;
-    font-family: "Koz Go Pr6 N";
+    font-family: Koz-Go-Pr6-N;
 }
 .tabpnelShow .tab-content .tab-pane{
     border: 1px solid whitesmoke;
@@ -348,12 +399,13 @@ font-family: "Koz Go Pr6 N";
 .downSign{
     color: #edbf77;
 }
+/* you tube section */
 .youtube h1{
     font-size: 36px;
     letter-spacing: 3px;
     color: #edbf77;
     font-weight: 500;
-    font-family: "Noto Serif JP";
+    font-family: Noto-Serif-Jp;
     text-align: center;
 }
 .youtube p{
@@ -361,9 +413,10 @@ font-family: "Koz Go Pr6 N";
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
     text-align: center;
 }
+/* banner three */
 .banner-three {
     position: relative;
     text-align: center;
@@ -382,7 +435,7 @@ font-family: "Koz Go Pr6 N";
     letter-spacing: 2px;
     color: #edbf77;
     font-weight: 700;
-    font-family: "Noto Serif JP";
+    font-family: Noto-Serif-Jp;
     text-align: center;
 }
 .banner-three .centered p{
@@ -390,9 +443,10 @@ font-family: "Koz Go Pr6 N";
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
     text-align: center;
 }
+/* grid blog section */
 .grid-blog{
     margin: 75px 0px;
 }
@@ -400,26 +454,26 @@ font-family: "Koz Go Pr6 N";
     font-size: 13px;
 letter-spacing: 1px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .grid-blog .list-unstyled .media .media-body h5{
     font-size: 16px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
 }
 .grid-blog .list-unstyled .media .media-body p{
     font-size: 11px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .grid-blog .grid-head h2{
     font-size: 30px;
     letter-spacing: 2px;
     color: #edbf77;
     font-weight: 500;
-    font-family: "Noto Serif JP";
+    font-family: Noto-Serif-Jp;
     text-align: center;
 }
 
@@ -427,19 +481,19 @@ font-family: "Yu Gothic";
     font-size: 13px;
 letter-spacing: 1px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .grid-blog .card-body h5{
     font-size: 16px;
 letter-spacing: 1px;
 color: #ffffff;
 font-weight: 700;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .grid-blog .card-body p{
     font-size: 11px;
 color: #ffffff;
-font-family: "Yu Gothic";
+font-family: Yu-Gothic;
 }
 .grid-blog .blog-link {
    margin-top: 20px;
@@ -473,14 +527,14 @@ border: 1px solid whitesmoke;
     letter-spacing: 3px;
     color: #ffffff;
     font-weight: bold;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
 }
 .footer .address p{
     font-size: 12px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 500;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
 }
 
 /* social icon */
@@ -491,7 +545,7 @@ border: 1px solid whitesmoke;
     color: whitesmoke;
     font-size: 22px;
     text-align: center;
-    font-family: "Yu Gothic";
+    font-family: Yu-Gothic;
     font-weight: bold;
 }
 .social-icons {
@@ -541,6 +595,7 @@ border: 1px solid whitesmoke;
     transition: none;
     color: #fff;
   }
+/* Carousel alider */
   .owl-theme .owl-dots .owl-dot span {
     width:30px;
     height:3px;
@@ -565,7 +620,7 @@ border: 1px solid whitesmoke;
     font-size: 16px;
 color: #fff;
 font-weight: 200;
-font-family: "Noto Serif JP";
+font-family: Noto-Serif-Jp;
 text-align: center;
 }
 
@@ -573,6 +628,22 @@ text-align: center;
 /* responsive  */
 
 @media screen and (max-width: 480px) {
+    .carousel-item h1{
+        font-size: 31px;
+    letter-spacing: 12px;
+    color: #edbf77;
+    font-family: Tomatoes;
+    font-weight: 400;
+    transform: rotate(-12deg);
+    }
+    .carousel-item h2{
+        margin-top: 0px;
+        margin-left: 0px;
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: #edbf77;
+    font-family: Noto sans CJ Kjp;
+    }
     .bloglist{
         margin: 35px 0px;
     }
@@ -595,7 +666,7 @@ text-align: center;
     letter-spacing: 3px;
     color: #edbf77;
     font-weight: 700;
-    font-family: "Noto Serif JP";
+    font-family: Noto-Serif-Jp;
     text-align: center;
     margin-bottom: 30px;
     }
