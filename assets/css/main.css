@@ -55,7 +55,7 @@ z-index: 99999;
      z-index: 9999; 
      top: 90%;
      transform: translate(0,-90%);
-     right: 0px;
+     right: 1px;
 }
 .header-rightside .rightside a .calendarcolor{
     color: white;
@@ -235,6 +235,7 @@ font-family: Yu-Gothic;
     line-height: 24px;
     color: #ffffff;
     font-family: Yu-Gothic;
+    padding-right: 15px;
 }
 /* horizontal line */
 hr{
@@ -535,8 +536,12 @@ padding: 5px;
 border: 1px solid whitesmoke;
 }
 .menu-slider .gallery h2{
-    font-size: 24px;
+    font-size: 30px;
+    letter-spacing: 2px;
     color: #edbf77;
+    font-weight: 700;
+    font-family: Noto-Serif-Jp;
+    text-align: center;
     margin-bottom: 25px;
 }
 .border-img{
@@ -566,7 +571,14 @@ border: 1px solid whitesmoke;
     font-weight: 500;
     font-family: Yu-Gothic;
 }
-
+.footer-logo h1{
+font-size: 14px;
+font-family: Tomatoes;
+transform: rotate(-12deg);
+}
+.footer-logo h2{
+font-size: 4px;
+}
 /* social icon */
 .social-tag{
     margin-top: 100px;

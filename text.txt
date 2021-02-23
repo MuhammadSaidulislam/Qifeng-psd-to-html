@@ -76,3 +76,91 @@ USPや競合との差別化などアピールしたい内容はこちらで紹�
         </div>  
       </nav>
     </div> -->
+
+
+ <section class="menu-slider">
+    <div class="container">
+      <div class="row">
+        <!-- Gallery heading text -->
+        <div class="col-md-12 gallery">
+          <h2 class="text-center">ギャラリー</h2>
+        </div>
+        <div class="col-md-12">
+          <div class="owl-carousel owl-theme">
+            <!-- Gallery slider image and text -->
+            <div class="item">
+              <div class="itembanner">
+                <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+                <div class="bottom">
+                  <h2>コンセプトブロック</h2>
+                </div>
+              </div>
+            </div>
+           <!-- Gallery slider image and text -->
+           <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery slider image and text -->
+          <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery slider image and text -->
+          <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery slider image and text -->
+          <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery slider image and text -->
+          <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery slider image and text -->
+          <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Gallery slider image and text -->
+          <div class="item">
+            <div class="itembanner">
+              <img src="assets/images/banner.png" alt="Snow" width="100%" height="250px">
+              <div class="bottom">
+                <h2>コンセプトブロック</h2>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
